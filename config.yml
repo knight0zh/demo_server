@@ -1,0 +1,36 @@
+app:
+  mode: debug
+  port: :8088
+mysql:
+  db_huidian:
+    host: 127.0.0.1
+    port: 3306
+    user: root
+    password: 123456
+    maxIdle: 10
+    maxOpen: 2000
+    debug: false
+  db_oms:
+    host: 127.0.0.1
+    port: 3306
+    user: root
+    password: 123456
+    maxIdle: 10
+    maxOpen: 2000
+    debug: true
+redis:
+  keliu:
+    host: 127.0.0.1
+    port: 6379
+    db: 0
+    password:
+    maxIdle: 180
+    maxActive: 0
+    idleTimeout: 180
+    connectTimeout: 5
+    readTimeout: 5
+    writeTimeout: 10
+    defaultExpiration: 10
+log:
+  level: info
+  max_backups: 2

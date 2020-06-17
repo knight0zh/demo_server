@@ -1,0 +1,27 @@
+package {{.modelPackageName}}
+
+import (
+    "time"
+)
+
+ {{if not .Config.AddProtobufAnnotation }}
+
+type {{.StructName}} struct {
+    {{range .TableInfo.Fields}}{{.}}
+    {{end}}
+}
+{{else}}
+
+/*
+type {{.StructName}} struct {
+    {{range .TableInfo.Fields}}{{.}}
+    {{end}}
+}
+*/
+
+{{end}}
+
+func ({{.ShortStructName}} *{{.StructName}}) TableName() string {
+	return "{{.DatabaseName}}.{{.TableName}}"
+}
+
