@@ -10,8 +10,8 @@ require (
 	github.com/golang/protobuf v1.4.2 // indirect
 	github.com/jinzhu/gorm v1.9.13
 	github.com/json-iterator/go v1.1.10
-	github.com/knight0zh/demo_config v0.0.0-20200617090844-b7c94a39d601
-	github.com/knight0zh/demo_pkg v0.0.0-20200617091044-891b9089803f
+	github.com/knight0zh/demo_config v0.0.0-20200623025443-22b029e801e8
+	github.com/knight0zh/demo_pkg v0.0.0-20200623024746-aaca7fcc7a29
 	github.com/kr/pretty v0.2.0 // indirect
 	github.com/lib/pq v1.3.0 // indirect
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible // indirect
@@ -27,9 +27,4 @@ require (
 	google.golang.org/protobuf v1.24.0 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	honnef.co/go/tools v0.0.1-2020.1.4 // indirect
-)
-
-replace (
-	github.com/knight0zh/demo_config => /Users/knight0zh/gostudy/demo_config
-	github.com/knight0zh/demo_pkg => /Users/knight0zh/gostudy/demo_pkg
 )

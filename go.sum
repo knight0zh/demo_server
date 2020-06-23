@@ -163,8 +163,12 @@ github.com/kisielk/errcheck v1.1.0/go.mod h1:EZBBE59ingxPouuu3KfxchcWSUPOHkagtvW
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
 github.com/knight0zh/demo_config v0.0.0-20200617090844-b7c94a39d601 h1:nVH55DtA6Z5Q+MG4AwEiSazcqelFBjVPNhmLFcjvXn0=
 github.com/knight0zh/demo_config v0.0.0-20200617090844-b7c94a39d601/go.mod h1:IhrpYq3ZMtHrR8SloWN4HJcwK9IkNwGZ8EOEZUoqVJ4=
+github.com/knight0zh/demo_config v0.0.0-20200623025443-22b029e801e8 h1:6+VmGl2moT0gnhq5o+HzxABAG85trCk1oP6ZN8K6AFo=
+github.com/knight0zh/demo_config v0.0.0-20200623025443-22b029e801e8/go.mod h1:AhwUTHSChJtlH5DF8RsJ3rPG1O6oSAdRvbsWoIDqK7o=
 github.com/knight0zh/demo_pkg v0.0.0-20200617091044-891b9089803f h1:SvLLcwoVVoC6jdlKj/8RbImZhCb2r0xxuf1PePF3pSM=
 github.com/knight0zh/demo_pkg v0.0.0-20200617091044-891b9089803f/go.mod h1:Zy9dId9JuDffoTHLbyVwj8gWZCn3McXmDQZeRv+w8wY=
+github.com/knight0zh/demo_pkg v0.0.0-20200623024746-aaca7fcc7a29 h1:yg0lu1RF6p6VpAN13KEyq2ej9cBkvV3SPqchBrC+f+4=
+github.com/knight0zh/demo_pkg v0.0.0-20200623024746-aaca7fcc7a29/go.mod h1:Zy9dId9JuDffoTHLbyVwj8gWZCn3McXmDQZeRv+w8wY=
 github.com/konsorten/go-windows-terminal-sequences v1.0.1/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
 github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515/go.mod h1:+0opPa2QZZtGFBFZlji/RkVcI2GknAs/DXo4wKdlNEc=
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
